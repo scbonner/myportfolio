@@ -1,32 +1,41 @@
 import React from 'react';
-import meadow from '../img/meadow.jpg';
 
-const Hero = () => {
+const About = () => {
   return (
-    <section
-      id="hero"
-      className="blue lighten-4"
-      style={{ backgroundImage: 'url(' + meadow + ')'}}
-    >
-      <div className="container valign-wrapper jc-center">
-        <div className="valign center-align white-text">
-          <p className="flowtext hide-on-small-only">We give your business an internet presence</p>
-          <h3>
-            Develop, Deploy, Done
-          </h3>
-
-          <p className="big">
-            We build your website using cutting edge frameworks
-            <br/>
-            entirely customized and made to order
-          </p>
-
-          <a className="btn waves-light waves-effect m-r-16">Features</a>
-          <a className="btn waves-light waves-effect">Portfolio</a>
+    <section id="about">
+      <div className="container">
+        <div className="row">
+          <div className="col m6">
+            <h3>Bogus Studio</h3>
+            <p>We are a studio that aims to give our clients a platform that exemplifies a good user experience...</p>
+          </div>
+          <div className="col m6">
+            <div className="stats">
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">123</h2>
+                <p className="grey-text darken-1">coders maimed</p>
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">123</h2>
+                <p className="grey-text darken-1">fresh pots of coffee</p>
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">123</h2>
+                <p className="grey-text lighten-1">pounds gnar shredded</p>
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">0</h2>
+                <p className="grey-text darken-1">honeybadgers harmed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <p>Along with a conservative dose of personality.</p>
         </div>
       </div>
     </section>
   );
 };
 
-export default Hero;
+export default About;

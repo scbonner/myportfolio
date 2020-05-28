@@ -1,13 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
     <header>
         <span className="icn-logo"><i className="material-icons">SB</i></span>
         <ul className="main-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><NavLink exact to="/" activeStyle={{ background: "orange" }}>Home</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/courses">Courses</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
     </header>
 );

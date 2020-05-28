@@ -115,7 +115,7 @@ header {
   text-align: center;
   text-transform: uppercase;
   display: block;
-  padding: 1em;
+  padding: .5em;
   transition: .2s;
 }
 .main-nav a:hover,
