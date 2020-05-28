@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     BrowserRouter,
-    Route
+    Route,
+    Switch
 } from 'react-router-dom';
 
 // App components
@@ -12,7 +13,7 @@ import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
 import Contact from './Contact';
-
+import NotFound from './NotFound';
 
 
 const App = () => {
@@ -20,12 +21,15 @@ const App = () => {
     <BrowserRouter>
         <div className="container">
             <Header />
+            <Switch>
             <Route path="/" component={Home} 
             />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/courses" component={Courses} />
             <Route path="/contact" component={Contact} />
+            <Route component={NotFound} />
+            </Switch>
         </div>
     </BrowserRouter>
     )
