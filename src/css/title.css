@@ -131,14 +131,15 @@ body {
   
   }
   
-  .btn btn-clear {
-      margin-top: 60px;
-      color: black;
+  /* .button {
+      background: teal;
+      top: 40px;
+      color: white;
+      font-size: 20px;
       font-weight: bold;
-      padding: 30px;
-  
-  } 
-  
+      padding: 20px;
+  } */
+
   #wrap {
     margin: 0 auto;
     width: 100%;

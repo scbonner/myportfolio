@@ -112,7 +112,7 @@ header {
 
 .main-nav a {
   font-size: .95em;
-  color: #222;
+  color: grey;
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -150,14 +150,15 @@ header {
 /* ICONS -------- */
 
 .icn-logo {
-  background: tomato; 
+  background: lightgrey; 
   color: black;
   font-weight: bold;
+  margin-left: 10px;
 }
 .icn-logo i {
-  font-size: 2em;
+  font-size: 3em;
   /* line-height: ; */
-  margin-top: 30%;
+  margin-top: 20px;
   text-emphasis-style: italic;
   /* margin-bottom: 5px; */
 
