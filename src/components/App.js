@@ -8,7 +8,7 @@ import {
 // App components
 
 import Header from './Header';
-import Home from './Home';
+import Mainpage from './Mainpage';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
@@ -23,7 +23,7 @@ const App = () => {
         <div className="container">
             <Header />
             <Switch>
-            <Route path="/" component={Home} 
+            <Route path="/" component={Mainpage} 
             />
             <Route path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />
