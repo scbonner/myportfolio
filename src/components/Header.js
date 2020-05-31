@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Index from '../index.css'
+
 const Header = () => (
     <header>
         <span className="icn-logo"><i className="material-icons">SB</i></span>

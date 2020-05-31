@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background: #5fcf80;
+  background: black;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -68,8 +68,8 @@ button {
   LAYOUT & PAGE STYLES
 ==================================== */
 
-.container {
-  width: 95%;
+/* .container {
+  width: 100%;
   max-width: 780px;
   padding-bottom: 2em;
   margin: 0 auto 2em;
@@ -77,10 +77,11 @@ button {
   border-radius: .5em;
   box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
-}
+} */
 header {
-  background: #edeff0;
+  /* background: #edeff0; */
   margin-bottom: 2em;
+  color: lightgrey;
 }
 .main-content {
   padding: 1em 2em;
@@ -115,13 +116,13 @@ header {
   text-align: center;
   text-transform: uppercase;
   display: block;
-  padding: .5em;
+  padding: 5px;
   transition: .2s;
 }
 .main-nav a:hover,
 .main-nav .active {
-  color: #fff;
-  background: #3b80d1;
+  color: white; 
+  background: black;
 }
 
 /* COURSE NAV -------- */
@@ -149,8 +150,9 @@ header {
 /* ICONS -------- */
 
 .icn-logo {
-  background: #54606b;
-  color: #fff;
+  background: tomato; 
+  color: black;
+  font-weight: bold;
 }
 .icn-logo i {
   font-size: 2em;
