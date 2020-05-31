@@ -1,4 +1,4 @@
-import React from 'react';
+
 import React, { Component } from 'react';
 
 
@@ -180,7 +180,7 @@ class Landing1 extends React.Component {
                     draw();
                 }, 1000 / targetFPS);
             }
-        );
+    
     }
     
 }

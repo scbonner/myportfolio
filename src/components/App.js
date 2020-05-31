@@ -8,13 +8,14 @@ import {
 // App components
 
 import Header from './Header';
-import Mainpage from './Mainpage';
-import Landing2 from './Landing2';
-import Landing1 from './Landing1';
+import Title from './Title';
+// import Landing2 from './Landing2';
+// import Landing1 from './Landing1';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
 import Contact from './Contact';
+import CSS from '../css/title.css'
 import NotFound from './NotFound';
 import Featured from './Featured';
 
@@ -25,7 +26,7 @@ const App = () => {
         <div className="container">
             <Header />
             <Switch>
-            <Route path="/" component={Mainpage} 
+            <Route path="/" component={Title} 
             />
             <Route path="/about" component={About} />
             <Route exact path="/projects" component={Projects} />

@@ -1,13 +1,13 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-// import Mainpage from './Mainpage';
-import Landing1 from './Landing1';
-import Landing2 from './Landing2';
-import Mainpage from './css/mainpage.css';
+
+// import Landing1 from './Landing1';
+// import Landing2 from './Landing2';
+import CSS from '../css/title.css';
 
 
 
-  const Mainpage = () => {
+  const Title = () => {
     return (
 
        <div className="container">
@@ -34,9 +34,9 @@ import Mainpage from './css/mainpage.css';
         //   </form>
         //   {/* <Link to="projects/HTML/Tommy">Tommy Wingo</Link> */}
           
-        // </div>
+        // // </div>
       );
     }
   
   
-  export default Mainpage;
+  export default Title;
