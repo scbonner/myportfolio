@@ -3,6 +3,9 @@ import React from 'react';
 
 // import Landing1 from './Landing1';
 // import Landing2 from './Landing2';
+import About from './About'
+
+import Header from './Header';
 import CSS from '../css/title.css';
 
 
@@ -22,7 +25,7 @@ import CSS from '../css/title.css';
            </div>
          </div>   
             <div class="button-view">
-            <a href="home.html" class="btn btn-clear 5em">VIEW</a> 
+            <button href="home" variant="primary" size="lg">VIEW</button>
             </div>
         </div>
       
@@ -32,7 +35,7 @@ import CSS from '../css/title.css';
         //     <input type="text" placeholder="Description" ref={ (input) => this.description = input }/>
         //     <button type="submit">Go!</button>
         //   </form>
-        //   {/* <Link to="projects/HTML/Tommy">Tommy Wingo</Link> */}
+        //  <Link to="projects/HTML/Tommy">Tommy Wingo</Link>
           
         // // </div>
       );
