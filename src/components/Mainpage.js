@@ -1,11 +1,14 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import Mainpage from '../css/mainpage.css';
+// import Mainpage from './Mainpage';
+import Landing1 from './Landing1';
+import Landing2 from './Landing2';
+import Mainpage from './css/mainpage.css';
 
 
 
   const Mainpage = () => {
-      return (
+    return (
 
        <div className="container">
         <h1>P O R T F O L I O</h1>
@@ -18,9 +21,9 @@ import Mainpage from '../css/mainpage.css';
              </div>
            </div>
          </div>   
-         <div class="button-view">
-         <a href="home.html" class="btn btn-clear 5em">VIEW</a> 
-         </div>
+            <div class="button-view">
+            <a href="home.html" class="btn btn-clear 5em">VIEW</a> 
+            </div>
         </div>
       
         //   <h3>Featured Projects</h3>

@@ -1,8 +1,11 @@
 import React from 'react';
 
 
-const Landing = () => {
-    return(
+// const Landing = () => {
+class Landing extends React.Component {
+    render() {
+          
+        return(
 
         $(function() {
             "use strict";
@@ -58,7 +61,7 @@ const Landing = () => {
             console.log("Handler for .keypress() called.");
             });
         }())
-        var tag = document.createElement('script');
+        var tag = document.createElement('script'),
         tag.src = 'https://www.youtube.com/player_api';
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
@@ -149,22 +152,14 @@ const Landing = () => {
             } else {
             tv.unMute();
             }
-            
-     )
+         
+
+     
 
     }
-    });
+    );
 
 
  
-
-
-
-
-
-
-
-
-
 
 export default Landing2;

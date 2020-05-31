@@ -9,6 +9,8 @@ import {
 
 import Header from './Header';
 import Mainpage from './Mainpage';
+import Landing2 from './Landing2';
+import Landing1 from './Landing1';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
