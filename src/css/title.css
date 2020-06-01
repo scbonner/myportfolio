@@ -100,31 +100,14 @@ body {
   
   }
   
-  /* h1, .container {
-      text-align: center; */
-      /* margin-top: -10em; */
-     
-  
-  /* .nav-item nav-link active {
-    color: tomato;
-    font-size: 1rem;
-    margin-top: -5em;
-  
-  }
-  
-  h3 {
-      margin-bottom: 40px;
-      color: white;
-      font-family: 'Tangerine', serif; */
-       
-  /* } */
-  
+    
   html,
   body {
     margin: 0;
     padding: 0;
     background: white;
     text-align: center;
+    opacity: 0.9;
     color: black; 
   }
   
@@ -134,12 +117,12 @@ body {
   
   }
   
-  .about {
+  /* .about {
 
     font-size: 20px;
     margin-left: 20px;
   
-  }
+  } */
   /* .button {
       background: teal;
       top: 40px;
