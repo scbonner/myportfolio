@@ -15,7 +15,7 @@ import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
 import Contact from './Contact';
-import CSS from '../css/title.css'
+import CSS from '../css/title.css';
 import NotFound from './NotFound';
 import Featured from './Featured';
 
@@ -26,10 +26,10 @@ const App = () => {
         <div className="container">
             <Header />
             <Switch>
-            <Route path="/" component={Title} 
+            <Route exact path="/" component={Title} 
             />
             <Route path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
+            <Route path="/projects" component={Projects} />
             <Route path="/projects/:description:title" component={Featured} />
             <Route path="/courses" component={Courses} />
             <Route path="/contact" component={Contact} />
@@ -37,7 +37,7 @@ const App = () => {
             </Switch>
         </div>
     </BrowserRouter>
-    )
+    )  
 };
 
 

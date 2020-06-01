@@ -1,6 +1,8 @@
-export const CSSCourses = [
+
+
+export const Courses = [
     {
-      title: "CSS Basics",
+      title: "HTML",
       description: "CSS (Cascading Style Sheets) is a style sheet language that describes the presentation of web pages. Whereas HTML is what forms the structure of a web page, CSS is what we use to style the HTML with colors, backgrounds, font sizes, layout, and more. As you'll soon learn, CSS is one of the core technologies for designing and building websites.",
       img_src:"https://achievement-images.teamtreehouse.com/badges_css_basics_stage6.png",
       id: "css-1"
@@ -30,14 +32,14 @@ export const CSSCourses = [
       id: "css-5"
     },
     {
-      title: "Bootstrap 4 Basics",
+      title: "Bootstrap 4",
       description: "Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time.",
       img_src: "https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png",
       id: "css-6"
     }
     ];
     
-  export const HTMLCourses =[
+  export const Courses =[
       {
         title: "How to Make a Website",
         description: "If you’ve never built a website before and you have no coding or design experience, this is the place to start. In this project, we learn how to build a modern portfolio website for desktops, tablets, and mobile devices. We start with basic HTML and CSS syntax. Next, we learn how to build custom web pages with an image gallery and contact page. Finally, we walk through how to share a website live on the web.",
@@ -76,7 +78,7 @@ export const CSSCourses = [
       }
     ];
     
-  export const JSCourses = [
+  export const Courses = [
     {
       title:"JavaScript Basics",
       description:"JavaScript is a programming language that drives the web: from front-end user interface design, to backend server-side programming, you'll find JavaScript at every stage of a web site and web application. In this course, you'll learn the fundamental programming concepts and syntax of the JavaScript programming language.",
