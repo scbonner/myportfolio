@@ -4,10 +4,8 @@ import {
     Route,
     Switch
 } from 'react-router-dom';
-// import { 
-//     Column, 
-//     Row 
-// } from 'simple-flexbox';
+
+
 
 // App components
 
@@ -15,10 +13,10 @@ import Header from './Header';
 import Title from './Title';
 // import Landing2 from './Landing2';
 // import Landing1 from './Landing1';
-// import Column from 'simple-flexbox';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
+import CoursesContainer from './CoursesContainer';
 import Contact from './Contact';
 import CSS from '../css/title.css';
 import NotFound from './NotFound';
@@ -31,6 +29,7 @@ const App = () => {
         <div className="container">
             <Header />
             <Switch>
+
             <Route exact path="/" component={Title} 
             />
             <Route path="/about" component={About} />
