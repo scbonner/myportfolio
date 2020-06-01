@@ -4,6 +4,10 @@ import {
     Route,
     Switch
 } from 'react-router-dom';
+// import { 
+//     Column, 
+//     Row 
+// } from 'simple-flexbox';
 
 // App components
 
@@ -11,6 +15,7 @@ import Header from './Header';
 import Title from './Title';
 // import Landing2 from './Landing2';
 // import Landing1 from './Landing1';
+// import Column from 'simple-flexbox';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';

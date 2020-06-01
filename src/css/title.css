@@ -25,7 +25,7 @@ body {
   
   @-webkit-keyframes fadeOut {
     0% {
-      opacity: 1;
+      opacity: 3;
     }
     100% {
       opacity: 0;
@@ -120,9 +120,9 @@ body {
   body {
     margin: 0;
     padding: 0;
-    background:  black;
+    background: white;
     text-align: center;
-    color: white; 
+    color: black; 
   }
   
   a {
@@ -131,6 +131,12 @@ body {
   
   }
   
+  .about {
+
+    font-size: 20px;
+    margin-left: 20px;
+  
+  }
   /* .button {
       background: teal;
       top: 40px;

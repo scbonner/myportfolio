@@ -7,7 +7,7 @@ const About = () => {
     return (
 
     <div className="main-content">
-        <h2 class="about">About</h2>
+        <h2 className="about">About</h2>
         
         <p>Meet a former social justice advocate turned Software Engineer. Sadric considers herself as a life learner who decided to challenge herself by entering the field of digital technology. Writer and Social Media Manager who helps finance professionals and Fin-tech startups build an audience and get more paying clients online.
         </p>
