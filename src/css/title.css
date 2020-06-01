@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
   }
   
+  .container-title {
+    margin: center;
+  }
+
   .container-fluid {
     font-style: oblique;
     font-size: 15px;
@@ -19,7 +23,7 @@ body {
   
   }
   #myCanvas{
-    background: cover #ccc;
+    background: 100%;
   
   }
   
@@ -88,12 +92,11 @@ body {
     margin-top:30px;
     text-align: center;
     top: 40%; 
-    width: 100%;
-    font-size: 150px;
+    font-size: 140px;
     font-weight: bold;
-    opacity: 0.3;
+    opacity: 0.4;
     font-family: 'Open Sans', sans-serif;
-    text-shadow: grey;
+    text-shadow: ;
   
   }
   

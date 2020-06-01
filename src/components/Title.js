@@ -1,11 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// import Landing1 from './Landing1';
-// import Landing2 from './Landing2';
-import About from './About'
-
-import Header from './Header';
 import CSS from '../css/title.css';
 
 
@@ -19,7 +12,7 @@ import CSS from '../css/title.css';
            <div id="viewport">
              <div class="tv">
                <div class="screen mute" id="tv">
-                 <canvas id="myCanvas" width="400" height="400"></canvas>
+                 <canvas id="myCanvas" width="300" height="300"></canvas>
                </div>
              </div>
            </div>

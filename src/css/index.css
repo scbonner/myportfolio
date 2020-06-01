@@ -124,18 +124,21 @@ header {
 /* MAIN NAV -------- */
 
 .main-nav a {
-  font-size: .95em;
+  margin-top: 20px;
+  /* border-top: 20px; */
+  padding-top: 20px;
+  font-size: 1em;
   color: grey;
   text-align: center;
   text-transform: uppercase;
-  display: block;
-  padding: 5px;
-  transition: .2s;
+  /* display: block; */
+  /* transition: .2s; */
 }
+
 .main-nav a:hover,
 .main-nav .active {
-  color: white; 
-  background: black;
+  color: lightgrey; 
+  background: white;
 }
 
 /* COURSE NAV -------- */
@@ -163,17 +166,16 @@ header {
 /* ICONS -------- */
 
 .icn-logo {
-  background: lightgrey; 
-  color: black;
+  background: grey; 
+  color: lightgrey;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 0; 
 }
 .icn-logo i {
-  font-size: 3em;
+  font-size: 2.5em;
   /* line-height: ; */
   margin-top: 20px;
   text-emphasis-style: italic;
-  /* margin-bottom: 5px; */
 
 }
 .icn-error {
