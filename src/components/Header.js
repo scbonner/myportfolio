@@ -5,6 +5,7 @@ import CSS from '../css/index.css';
 
 const Header = () => (
     <header>
+    
         <span className="icn-logo"><i className="material-icons">SB</i></span>
         
             <ul className="main-nav">

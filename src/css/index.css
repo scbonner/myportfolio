@@ -128,7 +128,7 @@ header {
   /* border-top: 20px; */
   padding-top: 20px;
   font-size: 1em;
-  color: grey;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   /* display: block; */
@@ -137,7 +137,7 @@ header {
 
 .main-nav a:hover,
 .main-nav .active {
-  color: lightgrey; 
+  color: black; 
   background: white;
 }
 
@@ -167,7 +167,7 @@ header {
 
 .icn-logo {
   background: grey; 
-  color: lightgrey;
+  color: white;
   font-weight: bold;
   margin-left: 0; 
 }
@@ -201,9 +201,10 @@ header {
      padding-bottom: 4px;
    }
    .main-nav a {
-     border-top: 2px solid transparent;
-     border-bottom: 2px solid transparent;
-   }
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+   } 
+
    .main-nav a:hover {
      border-color: rgba(0,0,0, .1);
    }
@@ -252,12 +253,17 @@ header {
   /* MAIN NAV -------- */
   .icn-logo {
     margin-right: auto;
-    padding: 0 2em;
+    margin-top: .5em;
+    padding: 1em;
+    border-radius: 50%;  
   }
+  
   header,
   .main-nav {
     display: flex;
     flex-wrap: wrap;
+    margin-top: .5em;
+    
   }
   .main-nav a {
     border-left: 3px solid transparent;
@@ -267,6 +273,8 @@ header {
   .main-nav a:hover {
     border-color: rgba(0,0,0, .1);
   }
+
+
   /* COURSE NAV -------- */
   .course-nav {
     float: right;
