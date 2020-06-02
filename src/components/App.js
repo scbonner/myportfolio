@@ -11,12 +11,13 @@ import {
 
 import Header from './Header';
 import Title from './Title';
+import Footer from './Footer';
 // import Landing2 from './Landing2';
 // import Landing1 from './Landing1';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
-import CoursesContainer from './CoursesContainer';
+// import CoursesContainer from './CoursesContainer';
 import Contact from './Contact';
 import CSS from '../css/title.css';
 import NotFound from './NotFound';
