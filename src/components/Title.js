@@ -18,7 +18,7 @@ import CSS from '../css/title.css';
            </div>
          </div>   
             <div class="button-view">
-            <button href="home" variant="primary" size="lg">VIEW</button>
+            <button href="home" variant="primary" size="lg">ENTER</button>
             </div>
         </div>
       

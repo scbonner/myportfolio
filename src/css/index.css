@@ -64,6 +64,7 @@ button {
   padding-right: 1em;
   cursor: pointer;
   border-color: rgba(0,0,0, .1);
+  margin-bottom: 10em;
 }
 
 /* ================================= 
@@ -85,9 +86,7 @@ header {
   margin-bottom: 2em;
   color: lightgrey;
 }
-.main-content {
-  padding: 1em 2em;
-}
+
 .group:after {
   content: "";
   display: table;
@@ -97,9 +96,8 @@ header {
   margin-bottom: 1em;
 }
 
-.main-content {
-
-  font-size: 15px;
+.main-content:about {
+  font-size: 30px;
   margin-left: 20px;
 }
 
@@ -117,9 +115,9 @@ header {
   width: 100%;
   border-radius: .3em;
 }
-.not-found {
+/* .not-found {
   text-align: center;
-}
+} */
 
 /* MAIN NAV -------- */
 

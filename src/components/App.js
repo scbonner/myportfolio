@@ -17,7 +17,6 @@ import Footer from './Footer';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
-// import CoursesContainer from './CoursesContainer';
 import Contact from './Contact';
 import NotFound from './NotFound';
 import Featured from './Featured';
@@ -47,6 +46,8 @@ const App = () => {
    </BrowserRouter>
     )  
 };
+
+
 
 
 export default App;
