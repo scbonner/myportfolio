@@ -19,7 +19,6 @@ import Projects from './Projects';
 import Courses from './Courses';
 // import CoursesContainer from './CoursesContainer';
 import Contact from './Contact';
-import CSS from '../css/title.css';
 import NotFound from './NotFound';
 import Featured from './Featured';
 
@@ -27,7 +26,9 @@ import Featured from './Featured';
 const App = () => {
     return (
     <BrowserRouter>
-        <div className="container">
+        <div className="container"> 
+            <div className= "wrap">
+
             <Header />
             <Switch>
 
@@ -41,7 +42,9 @@ const App = () => {
             <Route component={NotFound} />
             </Switch>
         </div>
-    </BrowserRouter>
+      <Footer />
+    </div>
+   </BrowserRouter>
     )  
 };
 

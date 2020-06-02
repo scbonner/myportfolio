@@ -1,23 +1,20 @@
 import React from "react";
-import { render } from "react-dom";
-import CSS from '../css/title.css';
 
 
-const Footer = () => (
-  <footer className="footer">
-  console.log('Footer')
-    <p>Some footer nonsense!</p>
-
-  </footer>
-);
-
-// const App = () => (
-//   <div className="content">
-//     <h1>Hi guys!</h1>
-//   </div>
-// );
-
-// render(
-//     <Footer />, document.getElementById("root"));
+const Footer = () => {
+    return (
+      <section id="footer" className="teal lighten-1">
+        <div className="container">
+          <div className="row">
+            <div className="col s3"></div>
+            <div className="col s6 center-align white-text">
+              © June 2020 -  All Rights Reserved
+            </div>
+            <div className="col s3"></div>
+          </div>
+        </div>
+      </section>
+    );
+  };
 
 export default Footer;

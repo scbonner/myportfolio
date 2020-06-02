@@ -126,8 +126,8 @@ body {
   
   .footer {
     flex-shrink: 0;
-    text-align: center;
-    background-color: tomato;
+    text-align: left;
+    background: tomato;
     color: white;
   }
 
