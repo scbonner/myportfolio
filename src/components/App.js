@@ -18,8 +18,10 @@ import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
 import Contact from './Contact';
+import Test from './Test';
 import NotFound from './NotFound';
 import Featured from './Featured';
+
 
 
 const App = () => {
@@ -38,10 +40,12 @@ const App = () => {
             <Route path="/projects/:description:title" component={Featured} />
             <Route path="/courses" component={Courses} />
             <Route path="/contact" component={Contact} />
+            <Route path="/test" component={Test} />
             <Route component={NotFound} />
             </Switch>
         </div>
       {/* <Footer /> */}
+    
     </div>
    </BrowserRouter>
     )  

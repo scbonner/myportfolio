@@ -60,7 +60,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="row">
-          <p>Projects are a work in progress...stay tuned.</p>
+          <p>The Projects List is a work in progress...stay tuned.</p>
         </div>
       </div>
     </section>

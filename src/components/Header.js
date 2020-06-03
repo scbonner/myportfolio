@@ -14,6 +14,7 @@ const Header = () => (
                 <li><NavLink exact to="/projects">Projects</NavLink></li>
                 <li><NavLink exact to="/courses/html">Courses</NavLink></li>
                 <li><NavLink exact to="/contact">Contact</NavLink></li>
+                <li><NavLink exact to="/contact">Test</NavLink></li>
             </ul>
     </header>
 

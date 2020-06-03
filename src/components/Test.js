@@ -1,41 +1,75 @@
-import React from 'react';
+// import React, { Component } from 'react';
+// import CSS from '../css/style.css';
 
-const About = () => {
-  return (
-    <section id="about">
-      <div className="container">
-        <div className="row">
-          <div className="col m6">
-            <h3>Bogus Studio</h3>
-            <p>We are a studio that aims to give our clients a platform that exemplifies a good user experience...</p>
-          </div>
-          <div className="col m6">
-            <div className="stats">
-              <div className="stat blue darken-2">
-                <h2 className="counter white-text">123</h2>
-                <p className="grey-text darken-1">coders maimed</p>
-              </div>
-              <div className="stat blue darken-2">
-                <h2 className="counter white-text">123</h2>
-                <p className="grey-text darken-1">fresh pots of coffee</p>
-              </div>
-              <div className="stat blue darken-2">
-                <h2 className="counter white-text">123</h2>
-                <p className="grey-text lighten-1">pounds gnar shredded</p>
-              </div>
-              <div className="stat blue darken-2">
-                <h2 className="counter white-text">0</h2>
-                <p className="grey-text darken-1">honeybadgers harmed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <p>Along with a conservative dose of personality.</p>
-        </div>
-      </div>
-    </section>
-  );
-};
 
-export default About;
+
+// //Form component
+// class Test extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       name: '',
+//       email:''
+//     };
+
+//     this.handleChange = this.handleInputChange.bind(this);
+//     this.handleSubmit = this.handleSubmit.bind(this);
+//   }
+  
+//   handleInputChange(event) {
+//     const target = event.target;
+//     const value = target.type === 'checkbox' ? target.checked : target.value;
+//     const name = target.name;
+    
+//     this.setState({
+//       [name]: value
+//     });
+//     console.log('Change detected. State updated' + name + ' = ' + value);
+//   }
+
+//   handleSubmit(event) {
+//     alert('A form was submitted: ' + this.state.name + ' // ' + this.state.email);
+//     event.preventDefault();
+//   }
+
+//   render() {
+//     return (
+//       <div>
+//         <form onSubmit={this.handleSubmit} >
+//           <div className="form-group">
+//             <label for="nameImput">Name</label>
+//             <input type="text" name="name" value={this.state.name} onChange={this.handleChange} className="form-control" id="nameImput" placeholder="Name" />
+//           </div>
+//           <div className="form-group">
+//             <label for="emailImput">Name</label>
+//             <input name="email" type="email" value={this.state.email} onChange={this.handleChange} className="form-control" id="emailImput" placeholder="email@domain.com" />
+//           </div>
+//           <input type="submit" value="Submit" className="btn btn-primary" />
+//         </form>
+//       </div>
+//     )
+//   }
+// }
+
+// class MainTitle extends React.Component {
+//   render(){
+//     return(
+//       <h1>React Form example</h1>
+//     )
+//   }
+// }
+
+// class App extends React.Component {
+//   render(){
+//     return(
+//       <div>
+//         <MainTitle/>
+//         <Test/>
+//       </div>
+//     )
+//   }
+// }
+
+// React.render(<App/>, document.getElementById('app'))
+
+// export default Test;
