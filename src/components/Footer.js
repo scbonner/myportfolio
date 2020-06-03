@@ -7,7 +7,7 @@ const Footer = () => {
       <section id="footer" className="teal lighten-1">
         <div className="container">
           <footer class="main-footer">
-            <span>&copy;  All rights reserved. June 2020</span>
+            <span>&copy;  All rights reserved / 2020</span>
           </footer>
           {/* <div className="row">
             <div className="col s3"></div>
