@@ -11,7 +11,7 @@ import {
 
 import Header from './Header';
 import Title from './Title';
-import Footer from './Footer';
+// import Footer from './Footer';
 // import Landing2 from './Landing2';
 // import Landing1 from './Landing1';
 import About from './About';
@@ -41,7 +41,7 @@ const App = () => {
             <Route component={NotFound} />
             </Switch>
         </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
    </BrowserRouter>
     )  

@@ -131,6 +131,19 @@ body {
     color: white;
   
   } */
+
+  .main-content, h2 {
+    color: grey;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  .main-content, p {
+    text-align: left;
+    color: grey;
+  }
+
+
   .main-footer {
     position: fixed;
     left: 0;
