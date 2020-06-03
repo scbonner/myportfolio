@@ -1,28 +1,73 @@
+import React from 'react';
+import CSS from '../css/style.css';
 
-import React, { Component } from 'react'
-
-
-class Projects extends Component {
-   
-   constructor(props) {
-      super(props) //since we are extending class Table so we have to use super in order to override Component class constructor
-      this.state = { //state is by default an object
-         students: [
-            { id: 1, name: 'Wasif', age: 21, email: 'wasif@email.com' },
-            { id: 2, name: 'Ali', age: 19, email: 'ali@email.com' },
-            { id: 3, name: 'Saad', age: 16, email: 'saad@email.com' },
-            { id: 4, name: 'Asad', age: 25, email: 'asad@email.com' }
-         ]
-      }
-   }
-
-   render() { //Whenever our class runs, render method will be called automatically, it may have already defined in the constructor behind the scene.
-      return (
-         <div>
-            <h1>React Dynamic Table</h1>
+const Projects = () => {
+  return (
+    <section id="about">
+      <div className="container">
+        <div className="row">
+          <div className="col m6">
+            <h3>Project Studio</h3>
+            <p>Welcome to Project Studio. This is where everything happens. To the immediate right are project ideas birthed, designed and developed by me.</p>
+            <p>In addition to, I would like to reference and provide the other developers work (snippets) I used to make parts of my portfolio completed. See below:</p>
+          
+          <h3>References</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Bugs Bunny (Link)</li>
+            <li class="list-group-item">Tasmanian Devil (Link)</li>
+            <li class="list-group-item">Yosemite Sam (Link)</li>
+            <li class="list-group-item">Tweety Bird (Link)</li>
+            <li class="list-group-item">Daffy Duck (Link)</li>
+         </ul>
          </div>
-      )
-   }
-}
+          
+          <div className="col m6">
+          <h3>Project List</h3>
+            <div className="stats">
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text darken-1">coders maimed</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text darken-1">fresh pots of coffee</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text lighten-1">pounds gnar shredded</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text darken-1">honeybadgers harmed</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text lighten-1">pounds gnar shredded</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text darken-1">honeybadgers harmed</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text lighten-1">pounds gnar shredded</p> */}
+              </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Pending</h2>
+                {/* <p className="grey-text darken-1">honeybadgers harmed</p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <p>Projects are a work in progress...stay tuned.</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// https://github.com/iwilsonq/react-material-landing-page
+
 
 export default Projects;
