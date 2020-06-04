@@ -13,8 +13,25 @@ nav .nav-wrapper {
   }
   
   h1 {
-    font-weight: 300;
+    /* font-weight: 300; */
+    color: black;
   }
+
+  h2 {
+    color: black;
+  
+  }
+  .contact {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+  }
+  
 
   h3 {
     font-weight: bold;
