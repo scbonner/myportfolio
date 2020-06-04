@@ -16,7 +16,7 @@ const Projects = () => {
             <li class="list-group-item">Bugs Bunny (https://codepen.io/coderakki - cards)</li>
             <li class="list-group-item">Tasmanian Devil (https://github.com/iwilsonq/react-material-landing-page - project page)</li>
             <li class="list-group-item">Yosemite Sam (https://codepen.io/isurfbecause/pen/XJydBp)</li>
-            <li class="list-group-item">Tweety Bird (Link)</li>
+            <li class="list-group-item">Tweety Bird (https://codepen.io/shrikant9907/pen/MMXdVj)</li>
             <li class="list-group-item">Daffy Duck (Link)</li>
          </ul>
          </div>
