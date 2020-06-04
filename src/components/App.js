@@ -17,7 +17,7 @@ import Title from './Title';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
-import InForm from './InForm';
+import Follow from './Follow';
 import Contact from './Contact';
 import Test from './Test';
 import NotFound from './NotFound';
@@ -40,7 +40,7 @@ const App = () => {
             <Route path="/projects" component={Projects} />
             <Route path="/projects/:description:title" component={Featured} />
             <Route path="/courses" component={Courses} />
-            <Route path="/inform" component={InForm} />
+            <Route path="/follow" component={Follow} />
             <Route path="/contact" component={Contact} />
             <Route path="/test" component={Test} /> 
             <Route component={NotFound} />

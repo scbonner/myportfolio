@@ -20,14 +20,11 @@ class Header extends Component {
                 <a href="about" class="nav-item nav-link">About</a>
                 <a href="projects" class="nav-item nav-link">Projects</a>
                 <a href="courses" class="nav-item nav-link">Courses</a>
-                <a href="inform" class="nav-item nav-link">InForm</a>
+                <a href="follow" class="nav-item nav-link">Follow</a>
                 <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
             </div>
-            {/* <div class="navbar-nav ml-auto">
-                <a href="register" class="nav-item nav-link">Register</a>
-                <a href="login" class="nav-item nav-link">Login</a>
-            </div> */}
+            
         </div>    
 </nav>  
             );
@@ -36,7 +33,7 @@ class Header extends Component {
               
    
  
-//  export default Test;
+
 
    
  

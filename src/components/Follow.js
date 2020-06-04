@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import CSS from "../css/index.css";
 
 
-class InForm extends Component {
+class Follow extends Component {
   
     constructor(props) {
       super(props);
@@ -74,6 +74,7 @@ class InForm extends Component {
     <div className="card-body">
        {this.state.error}
        <h2>Follow Me!</h2>
+       <h2>Provide your information below:</h2>
       <form onSubmit={this.handleSubmit} encType="multipart/form-data" autoComplete="off">
         <div className="position-relative form-group">
           <input name="name" type="text" className="text-field form-control mb-3 bg_grey border-0 py-3" placeholder="Name" value={this.state.name} onChange={this.handleChange} onBlur={this.handleBlur} required="required" />
@@ -122,4 +123,4 @@ class InForm extends Component {
 
 
 
-export default InForm;
+export default Follow;

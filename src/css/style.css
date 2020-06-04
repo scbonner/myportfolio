@@ -51,7 +51,6 @@ nav .nav-wrapper {
     text-align: left;
     margin: 0 50px;
     border-color: black;
-   
   }
   
   .stat p {
@@ -208,12 +207,14 @@ nav .nav-wrapper {
 }
 
 label {
-    color: #ccc;
+    color: blue;
     font-size: 15px;
-    position: absolute;
+    position: center;
+    padding: 10px;
     pointer-events: none;
-    left: 5px;
-    top: 10px;
+
+    /* left: 5px;
+    top: 10px; */
     transition: 0.2s ease all;
 }
 
@@ -264,7 +265,7 @@ input[type='submit'] {
     padding: 8px 10px;
     background-color: transparent;
     outline: 0;
-    float: right;
+    /* float: right; */
     margin-top: 15px;
     cursor: pointer;
 }
