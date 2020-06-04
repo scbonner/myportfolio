@@ -15,7 +15,7 @@ const Projects = () => {
           <ul class="list-group">
             <li class="list-group-item">Bugs Bunny (https://codepen.io/coderakki - cards)</li>
             <li class="list-group-item">Tasmanian Devil (https://github.com/iwilsonq/react-material-landing-page - project page)</li>
-            <li class="list-group-item">Yosemite Sam (Link)</li>
+            <li class="list-group-item">Yosemite Sam (https://codepen.io/isurfbecause/pen/XJydBp)</li>
             <li class="list-group-item">Tweety Bird (Link)</li>
             <li class="list-group-item">Daffy Duck (Link)</li>
          </ul>
@@ -63,11 +63,13 @@ const Projects = () => {
           <p>The Projects List is a work in progress...stay tuned.</p>
         </div>
       </div>
-    </section>
-  );
+     </section>
+        
+    
+   
+  )
 };
 
-// https://github.com/iwilsonq/react-material-landing-page
 
 
 export default Projects;

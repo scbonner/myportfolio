@@ -36,6 +36,17 @@ h2 {
   margin-bottom: 1.25em;
   margin: auto;
 }
+
+.title h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+
 ul {
   list-style-type: none;
 }

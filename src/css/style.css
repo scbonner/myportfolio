@@ -77,6 +77,24 @@ nav .nav-wrapper {
     margin-top: 0px;
   }
   
+  img {
+    margin-right:10px;
+    width: 66px;
+  }
+  
+  .wine-row {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding: 10px 0;
+  }
+  
+  .wine-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   .blogpost {
     display: flex;
     flex-direction: column;
