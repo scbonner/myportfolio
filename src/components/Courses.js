@@ -38,6 +38,17 @@ class Courses extends Component {
                     <h2>AJAX</h2>
                     <p>Everything is here</p>
                 </div>
+                <div className="card">
+                    <h2>PENDING</h2>
+                    <p>Everything is here</p>
+                </div>
+                <div className="card">
+                    <h2>PENDING</h2>
+                    <p>Everything is here</p>
+                </div><div className="card">
+                    <h2>PENDING</h2>
+                    <p>Everything is here</p>
+                </div>
         </div>
         </div>
             );

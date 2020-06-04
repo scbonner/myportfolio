@@ -1,4 +1,12 @@
 
+
+
+
+
+
+
+
+
 // import React, { Component } from 'react';
 // import CSS from '../css/index.css';
 
@@ -6,46 +14,57 @@
 // class Test extends Component {
 //     render() {
 //         return (
-
-//             <div className="container">
-//                 <div className="card">
-//                     <h2>HTML5</h2>
-//                     <p>Everything is here</p>
-//                 </div>
-//                 <div className="card">
-//                     <h2>CSS3</h2>
-//                     <p>Everything is here</p>
-//                 </div>
-//                 <div className="card">
-//                     <h2>RUBY</h2>
-//                     <p>Everything is here</p>
-//                 </div><div className="card">
-//                     <h2>JAVASCRIPT</h2>
-//                     <p>Everything is here</p>
-//                 </div>
-//                 <div className="container">
-//                 <div className="card">
-//                     <h2>REACT</h2>
-//                     <p>Everything is here</p>
-//                 </div>
-//                 <div className="card">
-//                     <h2>API</h2>
-//                     <p>Everything is here</p>
-//                 </div>
-//                 <div className="card">
-//                     <h2>JSX</h2>
-//                     <p>Everything is here</p>
-//                 </div><div className="card">
-//                     <h2>AJAX</h2>
-//                     <p>Everything is here</p>
-//                 </div>
-//         </div>
-//         </div>
+//     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+//     <div class="container-fluid">
+//         <a href="strance" class="navbar-brand mr-3">Sadric Bonner</a>
+//         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+//             <span class="navbar-toggler-icon"></span>
+//         </button>
+//         <div class="collapse navbar-collapse" id="navbarCollapse">
+//             <div class="navbar-nav ml-auto">
+//             {/* <div class="navbar-nav ml-auto"> */}
+//                 {/* <a href="home" class="nav-item nav-link active">Home</a> */}
+                
+//                 <a href="about" class="nav-item nav-link">About</a>
+//                 <a href="projects" class="nav-item nav-link">Projects</a>
+//                 <a href="courses" class="nav-item nav-link">Courses</a>
+//                 <a href="contact" class="nav-item nav-link">Contact</a>
+//             </div>
+//             </div>
+            
+//         </div>    
+// </nav>  
 //             );
 //         }
-//     }
+//      }
               
    
  
-//   export default Test;
+
+// HEADER FILE Input
+
+
+// import React from 'react';
+// import { NavLink } from 'react-router-dom';
+// import CSS from '../css/index.css';
+
+
+// const Header = () => {
+//     return( 
+//     <header>
+    
+//         <span className="icn-logo"><i className="material-icons">Sadric Bonner</i></span>
+        
+//             <ul className="main-nav">
+//                 <li><NavLink exact to="/">Home</NavLink></li>
+//                 <li><NavLink exact to="/about">About</NavLink></li>
+//                 <li><NavLink exact to="/projects">Projects</NavLink></li>
+//                 <li><NavLink exact to="/courses/html">Courses</NavLink></li>
+//                 <li><NavLink exact to="/contact">Contact</NavLink></li>
+//                 <li><NavLink exact to="/test">Test</NavLink></li>
+                
+//             </ul>
+//     </header>
+
+ export default Test;
   

@@ -13,8 +13,8 @@ const Projects = () => {
           
           <h3>References</h3>
           <ul class="list-group">
-            <li class="list-group-item">Bugs Bunny (Link)</li>
-            <li class="list-group-item">Tasmanian Devil (Link)</li>
+            <li class="list-group-item">Bugs Bunny (https://codepen.io/coderakki - cards)</li>
+            <li class="list-group-item">Tasmanian Devil (https://github.com/iwilsonq/react-material-landing-page - project page)</li>
             <li class="list-group-item">Yosemite Sam (Link)</li>
             <li class="list-group-item">Tweety Bird (Link)</li>
             <li class="list-group-item">Daffy Duck (Link)</li>
