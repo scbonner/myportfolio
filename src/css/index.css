@@ -24,9 +24,15 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.container h2 {
+  font-size: 1.5em;
+  padding-top: 25px;
+}
+
 h2 {
   color: #404040;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 1.25em;
   margin: auto;
 }
@@ -47,7 +53,6 @@ hr {
 /* FORM & BUTTON STYLES -------- */
 
 .home a,
-input,
 button {
   padding: .5em;
   font-size: .9em;
@@ -125,16 +130,7 @@ header {
 
 /* IMAGES -------- */
 
-.course-img {
-  width: 70px;
-}
-.teacher-img {
-  width: 100%;
-  border-radius: .3em;
-}
-/* .not-found {
-  text-align: center;
-} */
+
 
 /* MAIN NAV -------- */
 
@@ -254,17 +250,7 @@ header {
     width: 85.1%;
     margin-left: 1.5em;
   } 
-  .teacher {
-    width: 48.73%;
-    margin-bottom: 1.5em;
-  }
-  .teacher + .teacher {
-    margin-left: 2.54%;
-  }
-  .teacher:nth-child(2n+3) {
-    clear: left;
-    margin-left: 0;
-  }
+  
   /* MAIN NAV -------- */
   .icn-logo {
     margin-right: auto;

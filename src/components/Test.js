@@ -1,3 +1,59 @@
+import React from 'react';
+import CSS from '../css/index.css';
+
+
+const Test = () => {
+    return(
+        <div className="test">
+            <div class="some-page-wrapper">
+                <div class="row">
+                    {/* <div class="blue-column"> */}
+                        Insert paragraphs
+                    </div>
+                </div>
+                <div class="column">
+                    Second paragraph
+                </div>
+            </div>
+        
+    )
+}
+
+
+
+// import React, { Component } from 'react';
+// import CSS from '../css/index.css';
+
+// class Test extends Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             value: ''
+
+//         };
+//         this.handleChange = this.handleChange.bind(this);
+//         // this.handleSubmit = this.handleSubmit.bind(this);
+//     }
+// handleChange(event) {
+//     this.setState({value: event.target.value});
+
+// }
+// render() {
+//     return (
+//         <form onSubmit={this.handleSubmit}>
+//             <label>
+//                 Name:
+//                 <input
+//                 type="text"
+//                 value={this.state.value} 
+                
+//             />
+//             </label>
+//         </form>
+//     );
+//   }
+// }
+       
 
 
 

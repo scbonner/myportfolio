@@ -7,6 +7,7 @@ class Courses extends Component {
         return (
 
             <div className="container">
+            <h2>COMPLETED COURSES</h2>
                 <div className="card">
                     <h2>HTML5</h2>
                     <p>Everything is here</p>
