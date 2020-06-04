@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from 'react-icons/fa';
 import CSS from '../css/style.css';
 
 
@@ -32,16 +33,15 @@ import CSS from '../css/style.css';
 //       );
 //     }
 //   }
-  
  
-  
 
 class Test extends React.Component {
   constructor() {
     super();
     this.state = {
       firstname: " ",
-      lastname: " "
+      lastname: " ",
+      email: " "
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -51,14 +51,18 @@ class Test extends React.Component {
     //console.log(event.target.value)
     this.setState({ [event.target.name]: event.target.value });
   }
+  handleSubmit(event) {
+    alert('A name was submitted: ' + this.state.value);
+    event.preventDefault();
+  }
 
   render() {
     return (
       <div>
         <div className="App">
-          <h2>Hello CodeSandbox</h2>
-          <h2>June 3rd Practice!</h2>
-        </div>
+          <h2>HELLO!</h2>
+          <h5>You can reach me via email or icon. If, icon, just click on one of the buttons provided.</h5>
+        </div><br></br>
         <div>
           <form>
             <label>First Name:</label>
@@ -75,16 +79,37 @@ class Test extends React.Component {
               className="title"
               onChange={this.handleChange}
             />
+            <label>Email Address:</label>
+            <input
+              type="text"
+              name="email"
+              className="title"
+              onChange={this.handleChange}
+            /><br></br>
+            <input type="submit" value="Submit" />
           </form>
-          <h2 className="mirrored-text">{this.state.title}</h2>
+          <h2 className="mirrored-text">{this.state.firstname}</h2>
           <br />
-          <h2 className="mirrored-text">{this.state.second}</h2>
+          <h2 className="mirrored-text">{this.state.lastname}</h2>
+          
         </div>
       </div>
+    )
+}
+}
+class Facebook extends Component {
+    render() {
+        return (
+            <Facebook icon={['fal', 'code']} size="3x" />
 
-    );
+        )
     }
 }
+
+
+
+  
+
 export default Test;
 
 

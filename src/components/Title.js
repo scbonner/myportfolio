@@ -3,7 +3,7 @@ import CSS from '../css/title.css';
 
 
 
-  const Title = () => {
+  const Title  = () => {
     return (
 
        <div className="container">

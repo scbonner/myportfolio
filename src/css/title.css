@@ -70,6 +70,7 @@ body {
   
   .blink_me {
     animation: blinker 3s linear infinite;
+
   }
   
   @keyframes blinker {
@@ -105,7 +106,7 @@ body {
   body {
     margin: 0;
     padding: 0;
-    background: white;
+    background: lightgrey;
     text-align: center;
     opacity: 0.9;
     color: black; 

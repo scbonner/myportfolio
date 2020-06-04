@@ -51,40 +51,13 @@ class Courses extends Component {
                     <h2>PENDING</h2>
                     <p>Everything is here</p>
                 </div>
-        <div class="wine-row col-3">
-          <img src="http://placehold.it/70x50"></img>
-          <div class="wine-text-container">
-              <div>CHATEAU DE SAINT COSME</div>
-              <div>2009 * Critics 71%</div>
-          </div>
-        </div>
-       <div class="wine-row col-3">
-          <img src="http://placehold.it/70x50"></img>
-          <div class="wine-text-container">
-              <div>CHATEAU DE SAINT COSME</div>
-              <div>2009 * Critics 71%</div>
-          </div>
-        </div>
-        <div class="wine-row">
-          <img src="http://placehold.it/70x50"></img>
-          <div class="wine-text-container">
-              <div>CHATEAU DE SAINT COSME</div>
-              <div>2009 * Critics 71%</div>
-          </div>
-        </div>
-       <div class="wine-row">
-          <img src="http://placehold.it/70x50"></img>
-          <div class="wine-text-container">
-              <div>CHATEAU DE SAINT COSME</div>
-              <div>2009 * Critics 71%</div>
-          </div>
-        </div>
-          </div>
-        </div>
-       
+                </div>
+                </div>
 
-            )
-        };
+   
+
+        )
+        }
     }
               
    

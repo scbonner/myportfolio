@@ -14,9 +14,10 @@ class Header extends Component {
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
-            {/* <div class="navbar-nav ml-auto"> */}
+            
                 {/* <a href="home" class="nav-item nav-link active">Home</a> */}
                 
+                 <a href="title" class="nav-item nav-link">Title</a>
                 <a href="about" class="nav-item nav-link">About</a>
                 <a href="projects" class="nav-item nav-link">Projects</a>
                 <a href="courses" class="nav-item nav-link">Courses</a>

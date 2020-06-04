@@ -33,10 +33,10 @@ class Follow extends Component {
       if(value.length<=0) {
         return <div className="alert alert-danger"><span className="text-capitalize">{field}</span> is required field.</div>;
       } else {
-         if(field=='email')       {
+         if(field==='email')       {
           if(!this.isValidEmail(value))
           return <div className="alert alert-danger">Invalid Email.</div>;
-        } else if(field=='mobile') {
+        } else if(field==='mobile') {
           if(!this.isValidMobile(value))
           return <div className="alert alert-danger">Invalid Mobile Number.</div>;
         } else {

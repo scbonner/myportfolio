@@ -10,6 +10,7 @@ import {
 // App components
 
 import Header from './Header';
+// import Home from './Home';
 import Title from './Title';
 // import Footer from './Footer';
 // import Landing2 from './Landing2';
@@ -33,9 +34,9 @@ const App = () => {
 
             <Header />
             <Switch>
-
-            <Route exact path="/" component={Title} 
-            />
+            {/* <Route exact path="/" component={Home} 
+            />  */}
+             <Route exact path="/title" component={Title} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/projects/:description:title" component={Featured} />
