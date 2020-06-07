@@ -25,6 +25,21 @@ ul {
   padding: 0;
 }
 
+.container .jumbotron  {
+ 
+  background-image: url(../image/airsplat.png);
+  /* background: no-repeat; */
+  height: 100vh;
+  width: 100vh;
+  margin: 0 0;
+  min-width: 100%;
+  min-height: 100%;
+  /* position: absolute; */
+  /* opacity: ; */
+}
+
+
+
 .container h2 {
   font-size: 1.5em;
   padding-top: 25px;
