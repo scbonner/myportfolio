@@ -1,21 +1,18 @@
 import React from 'react';
-import Image from '../image/airsplat.jpg';
 import CSS from '../css/index.css';
-
 
 const About = () => {
     return(
-
-        <div className="container">
+<div className="container">     
 <div className="jumbotron jumbotron-fluid">
   <div className="container-fluid">
-    {/* <h1>Bootstrap Tutorial</h1>      
+    <h1>Bootstrap Tutorial</h1> 
     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
     <h1>Bootstrap Tutorial</h1>    
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p> */}
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    </div>      
   </div>
-</div>
-<br></br>
+  <br></br>
 <div className="jumbotron jumbotron-fluid">
   <div className="container-fluid">
     <h1>Bootstrap Tutorial</h1>      
@@ -38,8 +35,5 @@ const About = () => {
 
 );
 }
-  
 
-
-
-export default About;
+export default About

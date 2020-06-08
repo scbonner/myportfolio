@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     BrowserRouter,
-    // Route,
+    Route,
     Switch
 } from 'react-router-dom';
 
@@ -9,19 +9,19 @@ import {
 
 // App components
 
-// import Header from './Header';
+import Header from './Header';
 // import Home from './Home';
 // import Title from './Title';
 // import Footer from './Footer';
 // import Landing2 from './Landing2';
 // import Landing1 from './Landing1';
 import About from './About';
-// import Projects from './Projects';
-// import Courses from './Courses';
-// import Follow from './Follow';
-// import Contact from './Contact';
-import Test from './Test';
-// import NotFound from './NotFound';
+import Projects from './Projects';
+import Courses from './Courses';
+import Follow from './Follow';
+import Contact from './Contact';
+// import Test from './Test';
+import NotFound from './NotFound';
 // import Featured from './Featured';
 
 
@@ -32,20 +32,20 @@ const App = () => {
         <div className="container"> 
             <div className= "wrap">
 
-            <Test />
+            <Header />
             <Switch>
+
+            <Route path="/about" component={About} />
             {/* <Route exact path="/" component={Home} 
             />  */}
              {/* <Route exact path="/title" component={Title} /> */}
              {/* <Route path="/test" component={Test} />  */}
-            {/* <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            <Route path="/projects/:description:title" component={Featured} />
+            {/* <Route path="/projects/:description:title" component={Featured} /> */}
             <Route path="/courses" component={Courses} />
             <Route path="/follow" component={Follow} />
-            <Route path="/contact" component={Contact} /> */}
-            
-            {/* <Route path="/notfound" component={NotFound} /> */}
+            <Route path="/contact" component={Contact} />
+            <Route path="/notfound" component={NotFound} />
             </Switch>
         </div>
       {/* <Footer /> */}
@@ -56,6 +56,4 @@ const App = () => {
 };
 
 
-
-
-export default App;
+export default App
