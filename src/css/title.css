@@ -1,4 +1,4 @@
-body {
+/* body {
     -webkit-animation-duration: 10s;
     animation-duration: 10s;
     -webkit-animation-fill-mode: both;
@@ -132,7 +132,7 @@ body {
     color: white;
   
   } */
-
+/* 
   .main-content, h2 {
     color: grey;
     margin-bottom: 20px;
@@ -193,4 +193,4 @@ body {
     flex-direction: column;
     background-color: lightgrey;
   }
-  
+   */

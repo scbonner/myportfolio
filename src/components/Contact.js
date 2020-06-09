@@ -9,7 +9,8 @@ class Contact extends Component {
       this.state = {
         firstname: " ",
         lastname: " ",
-        email: " "
+        email: " ",
+        comment: " "
       };
       this.handleChange = this.handleChange.bind(this);
     }
@@ -53,7 +54,18 @@ class Contact extends Component {
                 name="email"
                 className="title"
                 onChange={this.handleChange}
+              />
+              <br></br>
+              <br></br>
+              <label>Comments:</label>
+              <input
+                type="text"
+                name="comments"
+                className="commentTitle"
+                onChange={this.handleChange}
               /><br></br>
+              
+              <br></br>
               <input type="submit" value="Submit" />
             </form>
             <h2 className="mirrored-text">{this.state.firstname}</h2>
@@ -62,7 +74,7 @@ class Contact extends Component {
             
           </div>
         </div>
-  
+        
       );
     }
   }

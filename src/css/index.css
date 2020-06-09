@@ -14,7 +14,6 @@
 body {
   color: #576366;
   background: white;
-  margin: 0;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
@@ -24,16 +23,50 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  margin-top: -3em;
+  margin-bottom: 1em;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  /* margin-top: -3em;
+  margin-bottom: 4em; */
+  margin-top: -4em;
+  margin-bottom: 2em;
+  background-color: white;
+  color: blue;
+  
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 175%;
+  font-weight: bold;
+  padding: 12px 16px;
+  font-style: italic;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
 
 .container .jumbotron  {
- 
-  background-image: url(../image/paint.jpg);
+  background-image: url(../image/paint.jpg); 
   color: black;
-  height: 75vh;
-  width: 80vh;
+  background-size: cover;
+  height: 40vh;
+  width: 100vh;
   min-width: 100%;
   min-height: 100%;
-  /* position: absolute; */
   /* opacity: .7; */
 }
 
@@ -242,7 +275,16 @@ header {
   max-width: 100%;
 }
 
-
+.main-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: tomato; */
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
 
 /* ================================= 
   MEDIA QUERIES

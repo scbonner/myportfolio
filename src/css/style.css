@@ -40,6 +40,15 @@ nav .nav-wrapper {
     margin-bottom: 10px;
     
   }
+
+  .commentTitle {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40%;
+    height: 6em;
+
+  }
+
   
   p {
     font-size: 20px;
