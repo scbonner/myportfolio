@@ -1,39 +1,33 @@
-// import React from 'react';
-// import CSS from '../css/index.css';
+import React from 'react';
+import Modal from 'react-bootstrap/Modal';
+import CSS from '../css/index.css';
 
-// const Test = () => {
-//     return(
-// <div className="container">     
-// <div className="jumbotron jumbotron-fluid">
-//   <div className="container-fluid">
-//     <h1>Bootstrap Tutorial</h1> 
-//     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-//     <h1>Bootstrap Tutorial</h1>    
-//     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-//     </div>      
-//   </div>
-//   <br></br>
-// <div className="jumbotron jumbotron-fluid">
-//   <div className="container-fluid">
-//     <h1>Bootstrap Tutorial</h1>      
-//     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-//     <h1>Bootstrap Tutorial</h1>    
-//     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-//   </div>
-// </div>
-// <br></br>
-// <div className="jumbotron jumbotron-fluid">
-//   <div className="container-fluid">
-//     <h1>Bootstrap Tutorial</h1>      
-//     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-//     <h1>Bootstrap Tutorial</h1>    
-//     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-//   </div>
-// </div>
-// </div>
+const Test = () => {
+    const [open, setOpen] = useState(false);
+        return (
 
+              <>
+                <Button
+                  onClick={() => setOpen(!open)}
+                  aria-controls="example-collapse-text"
+                  aria-expanded={open}
+                >
+                  click
+                </Button>
+                <Collapse in={open}>
+                  <div id="example-collapse-text">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                    labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </Collapse>
+              </>
 
-// );s
-// }
+         );
+    }
+          
+   
 
-// export default Test;
+        
+
+export default Test

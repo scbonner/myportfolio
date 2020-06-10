@@ -10,20 +10,14 @@ import {
 // App components
 
 import Header from './Header';
-// import Home from './Home';
-// import Title from './Title';
-import Footer from './Footer';
-// import Landing2 from './Landing2';
-// import Landing1 from './Landing1';
 import About from './About';
 import Projects from './Projects';
 import Courses from './Courses';
 import Follow from './Follow';
 import Contact from './Contact';
-// import Test from './Test';
+import Footer from './Footer';
+import Test from './Test';
 import NotFound from './NotFound';
-// import Featured from './Featured';
-
 
 
 const App = () => {
@@ -31,20 +25,16 @@ const App = () => {
     <BrowserRouter>
         <div className="container"> 
             <div className= "wrap">
-
             <Header />
             <Switch>
 
-            <Route path="/about" component={About} />
-            {/* <Route exact path="/" component={Home} 
-            />  */}
-             {/* <Route exact path="/title" component={Title} /> */}
-             {/* <Route path="/test" component={Test} />  */}
+            <Route exact path="/" component={Header} />
+            <Route path="/about" component={About} /> 
             <Route path="/projects" component={Projects} />
-            {/* <Route path="/projects/:description:title" component={Featured} /> */}
             <Route path="/courses" component={Courses} />
             <Route path="/follow" component={Follow} />
             <Route path="/contact" component={Contact} />
+            <Route path="/contact" component={Test} />
             <Route path="/notfound" component={NotFound} />
             </Switch>
         </div>
@@ -52,8 +42,8 @@ const App = () => {
     
     </div>
    </BrowserRouter>
-    )  
-};
+    ); 
+}
 
 
 export default App

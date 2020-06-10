@@ -112,7 +112,7 @@ class Follow extends Component {
                 <li className="list-group-item">Message: {this.state.message}</li>
               </ul>
            </div>
-          )
+          );
         }
     }
   }
@@ -123,4 +123,4 @@ class Follow extends Component {
 
 
 
-export default Follow;
+export default Follow

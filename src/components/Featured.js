@@ -1,15 +1,15 @@
-import React from 'react';
+// import React from 'react';
 
-const Featured = ({match}) => {
-    let title = match.params.title;
-    let description = match.params.description;
+// const Featured = ({match}) => {
+//     let title = match.params.title;
+//     let description = match.params.description;
 
-    return (
-        <div className="main-content">
-        <h2>{title}</h2>
-        <p>Introducing <strong></strong>, a teacher who loves teaching courses about <strong>{description}</strong>!</p>
-        </div>
-  );
-}
+//     return (
+//         <div className="main-content">
+//         <h2>{title}</h2>
+//         <p>Introducing <strong></strong>, a teacher who loves teaching courses about <strong>{description}</strong>!</p>
+//         </div>
+//   );
+// }
 
-export default Featured;
+// export default Featured;
