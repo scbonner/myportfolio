@@ -11,13 +11,16 @@ const Projects = () => {
             <p>Welcome to Project Studio. This is where everything happens. To the immediate right are project ideas birthed, designed and developed by me.</p>
             <p>In addition to, I would like to reference and provide the other developers work (snippets) I used to make parts of my portfolio completed. See below:</p>
           
-          <h3>References</h3>
+          <h3>Brief Description of Projects</h3>
           <ul class="list-group">
-            <li class="list-group-item">Bugs Bunny (https://codepen.io/coderakki - cards)</li>
-            <li class="list-group-item">Tasmanian Devil (https://github.com/iwilsonq/react-material-landing-page - project page)</li>
-            <li class="list-group-item">Yosemite Sam (https://codepen.io/isurfbecause/pen/XJydBp)</li>
-            <li class="list-group-item">Tweety Bird (https://codepen.io/shrikant9907/pen/MMXdVj)</li>
-            <li class="list-group-item">Daffy Duck (Link)</li>
+            <li class="list-group-item">Project 1:</li>
+            <li class="list-group-item">Project 2:</li>
+            <li class="list-group-item">Project 3:</li>
+            <li class="list-group-item">Project 4:</li>
+            <li class="list-group-item">Project 5:</li>
+            <li class="list-group-item">Project 6:</li>
+            <li class="list-group-item">Project :7</li>
+            <li class="list-group-item">Project 8:</li>
          </ul>
          </div>
           

@@ -12,8 +12,8 @@ import CSS from '../css/index.css';
             <div className='navbar__item'>Projects</div>
             <div className='navbar__item'>Courses</div>
             <div className='navbar__item'>Follow</div> 
-            <div className='navbar__item'>Contact</div>  
-            <div className='navbar__item'>Test</div>      
+            <div className='navbar__item'>Contact</div>   
+            <div className='navbar__item'>Test</div>    
         </header>
    
 

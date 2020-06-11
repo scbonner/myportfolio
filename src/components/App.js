@@ -16,8 +16,8 @@ import Courses from './Courses';
 import Follow from './Follow';
 import Contact from './Contact';
 import Footer from './Footer';
-import Test from './Test';
 import NotFound from './NotFound';
+import Test from './Test';
 
 
 const App = () => {
@@ -34,8 +34,8 @@ const App = () => {
             <Route path="/courses" component={Courses} />
             <Route path="/follow" component={Follow} />
             <Route path="/contact" component={Contact} />
-            <Route path="/contact" component={Test} />
             <Route path="/notfound" component={NotFound} />
+            <Route path="/test" component={Test} />
             </Switch>
         </div>
       <Footer />

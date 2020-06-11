@@ -4,7 +4,7 @@ import CSS from '../css/index.css';
 
 const Footer = () => {
     return (
-      <section id="footer" className="teal lighten-1">
+      <section id="footer">
         <div className="container">
           <footer class="main-footer">
        
