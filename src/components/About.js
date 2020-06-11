@@ -39,24 +39,18 @@ const About = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        
         </div>
-      </div>      
-    </div>
+      </div>   
+      </div>   
     <div className="container">
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 10, margin: 30 }}>
-        <div>Fellowships</div>
-          <ul>
-            <li>National Science Foundation</li>
-            <li>Youth Justice Leadership Institute</li>
-            <li></li>
-          </ul>
-        <div>Column 2</div>
-        
-        </div>
-    </div> 
-  </div>
-   
+        <h1>Fellowships</h1>
+        <div id="col" className="fellow">
+        <div>National Science Foundation - Innovation Corps (2018/Cohort)</div>
+        <div>201Youth Justice Leadership Institute - NJJN (2016/Cohort)</div>
+      </div>
+      </div>
+      </div>   
+     
  
  );
   
