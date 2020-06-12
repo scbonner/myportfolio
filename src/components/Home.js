@@ -1,45 +1,67 @@
 import React, { Component } from 'react';
-import CSS from '../css/index.css';
+import { NavLink } from 'react-router-dom';
+import CSS from '../css/courses.css';
+
+
+
+const NavLinks = [
+    
+      { url: '/', name: 'Home' },
+      { url: '/about', name: 'About' },
+      { url: '/projects', name: 'Projects' },
+      { url: '/contact', name: 'Contact' },
+]
+   
 
 
 class Home extends Component {
-    render() {
-        return (
+  constructor(){
+    super();
+    this.state = {
+      style: 'menu',
+      menuStatus: 'open'
 
-            <div className="container">
-                <h1>COMPLETED COURSES</h1>
-                    <div className="card">
-                        <h2>HTML5</h2></div>
-                    <div className="card">
-                        <h2>CSS3</h2></div>
-                    <div className="card">
-                        <h2>RUBY</h2>
-                    </div><div className="card">
-                        <h2>JAVASCRIPT</h2></div>
-                    <div className="container">
-                    <div className="card">
-                        <h2>REACT</h2></div>
-                    <div className="card">
-                        <h2>API</h2></div>
-                    <div className="card">
-                        <h2>JSX</h2></div>
-                        <div className="card">
-                        <h2>AJAX</h2></div>
-                    <div className="card">
-                        <h2>PENDING</h2></div>
-                    <div className="card">
-                        <h2>PENDING</h2></div>
-                    <div className="card">
-                        <h2>PENDING</h2></div>
-                </div>
-            </div>
+    };
+    this.handleClick = this.handleClick.bind(this);
 
-   
+  };
 
-        )
+  handleClick() {
+    switch(this.state.menuStatus)
+    {
+      case "open":
+        this.setState({
+          menuStatus: "close",
+          style: "menu active"
+        });
+        break;
+      case "close":
+        this.setState({
+          menuStatus:"open",
+          style: "menu"
+        });
+        break;
+
     }
+  }
+
+  render() {
+    return(
+      <div>
+        <button onClick={this.handleClick}>Sadric's Portfolio</button>
+        <div className={this.state.style}>
+        <ul>
+          {NavLinks.map(({ url, name }) => ( 
+          <li>
+            <a href={url}>{name}></a>
+          </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+    );
+  }
+
 }
-              
-   
- 
-  export default Home;
+
+ export default Home

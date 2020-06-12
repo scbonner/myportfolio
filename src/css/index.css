@@ -347,10 +347,10 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: grey;
-  padding-top: 45px;
-  padding-bottom: 35px;
-  color: white;
+  background-color: lightgrey;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: black;
   text-align: center;
 
 }
