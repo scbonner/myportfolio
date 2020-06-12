@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLinks } from 'react';
+import { NavLink } from 'react';
 
 import {
     BrowserRouter,
@@ -25,7 +25,6 @@ const App = () => {
     return (
 
     <BrowserRouter>
-        
             <Home />
             <Switch>
             <Route exact path="/" component={Home} /> 
@@ -36,10 +35,11 @@ const App = () => {
             </Switch>
     
       <Footer />
-    
-   </BrowserRouter>
-    ); 
-}
+      </BrowserRouter>
 
+        )
+    }
 
 export default App
+
+

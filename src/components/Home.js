@@ -6,13 +6,12 @@ import CSS from '../css/courses.css';
 
 const NavLinks = [
     
-      { url: '/', name: 'Home' },
+      { url: '/home', name: 'Home' },
       { url: '/about', name: 'About' },
       { url: '/projects', name: 'Projects' },
-      { url: '/contact', name: 'Contact' },
+      { url: '/contact', name: 'Contact' }
 ]
    
-
 
 class Home extends Component {
   constructor(){
