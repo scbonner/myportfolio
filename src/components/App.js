@@ -9,11 +9,10 @@ import {
 
 // App components
 
+import Home from './Home';
 import Header from './Header';
 import About from './About';
 import Projects from './Projects';
-import Courses from './Courses';
-import Follow from './Follow';
 import Contact from './Contact';
 import Footer from './Footer';
 import NotFound from './NotFound';
@@ -27,15 +26,13 @@ const App = () => {
             <div className= "wrap">
             <Header />
             <Switch>
-
-            <Route exact path="/" component={Header} />
+            <Route exact path="/" component={Home} />
             <Route path="/about" component={About} /> 
             <Route path="/projects" component={Projects} />
-            <Route path="/courses" component={Courses} />
-            <Route path="/follow" component={Follow} />
             <Route path="/contact" component={Contact} />
-            <Route path="/notfound" component={NotFound} />
             <Route path="/test" component={Test} />
+            <Route path="/notfound" component={NotFound} />
+            
             </Switch>
         </div>
       <Footer />

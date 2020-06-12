@@ -1,23 +1,27 @@
 
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import CSS from '../css/index.css';
 
 
 
 const Header = () => {
-    return(
-       
-      <header className='navbar'>
-        <div className='navbar__title navbar__item'>SADRIC BONNER</div>
-        <div className='navbar__item'>Projects</div>
-        <div className='navbar__item'>Courses</div>
-        <div className='navbar__item'>Follow</div> 
-        <div className='navbar__item'>Contact</div>   
-        <div className='navbar__item'>Test</div>    
-     </header> 
+  return(
 
-        );
- }
+  <header>
+      <span className="logo"><i className="letters">SB</i></span>
+        <ul className="main-nav">
+          <li><NavLink exact to="/">Home</NavLink></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/projects">Projects</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
+          <li><NavLink to="/contact">Test</NavLink></li>
+        </ul>
+    </header> 
+  )
+
+}
+
             
  
 export default Header
