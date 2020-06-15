@@ -4,63 +4,23 @@ import CSS from '../css/courses.css';
 
 
 
-const NavLinks = [
-    
-      { url: '/home', name: 'Home' },
-      { url: '/about', name: 'About' },
-      { url: '/projects', name: 'Projects' },
-      { url: '/contact', name: 'Contact' }
-]
-   
 
-class Home extends Component {
-  constructor(){
-    super();
-    this.state = {
-      style: 'menu',
-      menuStatus: 'open'
+const Home = () => {
+    return (
+      <header>
+        <span className="logo"><i className="letters">SB</i></span>
+          <ul className="main-nav">
+            <li><NavLink exact to="/">Home</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/contact">Test</NavLink></li>
+          </ul>
+      </header> 
 
-    };
-    this.handleClick = this.handleClick.bind(this);
-
-  };
-
-  handleClick() {
-    switch(this.state.menuStatus)
-    {
-      case "open":
-        this.setState({
-          menuStatus: "close",
-          style: "menu active"
-        });
-        break;
-      case "close":
-        this.setState({
-          menuStatus:"open",
-          style: "menu"
-        });
-        break;
-
-    }
-  }
-
-  render() {
-    return(
-      <div>
-        <button onClick={this.handleClick}>Sadric's Portfolio</button>
-        <div className={this.state.style}>
-        <ul>
-          {NavLinks.map(({ url, name }) => ( 
-          <li>
-            <a href={url}>{name}></a>
-          </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-    );
-  }
+    )
 
 }
 
- export default Home
+
+export default Home;

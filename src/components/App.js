@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react';
-
 import {
     BrowserRouter,
     Route,
@@ -20,6 +19,24 @@ import Footer from './Footer';
 import NotFound from './NotFound';
 // import Test from './Test';
 
+import { Redirect, Route, Switch } from "react-router";
+
+let routes = (
+  <Switch>
+    <Route exact path="/">
+      <Home />
+    </Route>
+
+    <Route path="/users">
+      <Users />
+    </Route>
+    <Redirect from="/accounts" to="/users" />
+
+    <Route>
+      <NoMatch />
+    </Route>
+  </Switch>
+);
 
 const App = () => {
     return (
@@ -27,7 +44,7 @@ const App = () => {
     <BrowserRouter>
             <Home />
             <Switch>
-            <Route exact path="/" component={Home} /> 
+            <Route path="/home" component={Home} />
             <Route path="/about" component={About} /> 
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
