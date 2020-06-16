@@ -15,14 +15,12 @@ const About = () => {
       <div class="container">
         <h1>My Story</h1>
         <div id="col">
-          <p> My story started around four years ago. I had the great opportunity to mentor and supervise a student at the university I worked. Our department was classified as a nonprofit and operated solely through outside funding sources and a tight budget.
-          </p>
-          <p>One of my tasks was to maintain and update statewide website that included the departments of the Juvenile Justice, Mental Health and Substance Use staff and other non-governmental agencies. As the collaborative roster grew, so did the state and departmental information needs expand and the website was becoming obsolete. My technological capacities were nonexistent other than UI, designing and sketching of the pages. 
-          </p>
-          <p>To save money, I suggested a partnership with our computer science department students. It would be a win-win in saving us dollars and they could get their volunteer service hours on their resumes. This mere chance was a game changer for me. As I sketched, observed and verbally instructed the student, I eventually became his student and he, my teacher. He encouraged me to try school again; however, in the technology field.  So, the rest is history. 
-          </p>
-          <p>I was able to save the department around $10,000 and turn-around time for the time-sensitive updates. The student received a job on my recommendation of a job well done, and me? Well, I did go back to school for Coding and Web Design. 
-          </p>
+          <p> About four years ago, I had the great opportunity to supervise and mentor a student at the university I worked. The department I was affliated with was classified as a nonprofit. Funding was solely based on outside grant funding.</p>
+          <p>One of my tasks was to monitor and update a statewide collaborative website that included the the Juvenile Justice, Mental Health and Substance Use organizations in addition to other non-government agencies. As the collaborative roster expanded, so did the need to keep the site as current as possible. My digital capacity was nonexistent other than UI manipulation.</p>
+          <p>The department's dilemma always surrounded money. Regardless, an upgrade was looming. I suggested a partnership with the university's computer science department. We would utilize the services of a student as a volunteer. It was viewed as a win-win collab effort. Several advantages, it saved money, the student would receive volunteer service hours, and the job could be completed a few weeks ahead of time.</p>
+          <p>The group agreed, and I supervised and mentored a student. Quickly, I became intrigued with the enormity and possibilities in the field. Immediately, he began to encourage me to return to school, transitioning into the information technology field.</p>
+          <p>The job came to an end. We noticed soon, thereafter, our collabration saved somewhere between 5K to 10K dollars, deadlines were met, the student received volunteer hours. He, also, accepted a position within weeks after assisting us.</p>
+          <p>And, me? Well, I did go back to school ransitioning in the field of Coding and Web Design.</p>
         </div>
         </div>
       </div>   
@@ -30,21 +28,23 @@ const About = () => {
     <div className="container">
         <h1>Fellowships</h1>
         <div className="col-fellow">
-        <div>National Science Foundation - Innovation Corps (2018/Cohort)
+        <div>
+        <p>2016 Youth Justice Leadership Institute - NJJN (2016/Cohort)</p>
         <ul>
             <li>Alumni Representative</li>
             <li>Alumni Advisory Committee</li>
-          </ul>
-        <div>201Youth Justice Leadership Institute - NJJN (2016/Cohort)
-          <ul>
-            <li>Alumni Representative</li>
-            <li>Alumni Advisory Committee</li>
-          </ul>
+          </ul> 
+        </div>
+        <div>
+        <p>National Science Foundation - Innovation Corps (2018/Cohort)</p>
         </div>
         </div>
         </div>
         </div>
-        </div>
+      
+        
+       
+      
      
     
        

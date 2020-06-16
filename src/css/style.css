@@ -85,6 +85,10 @@ nav .nav-wrapper {
   .row {
     margin-top: 0px;
   }
+
+  .row p {
+    margin-left: 30px;
+  }
   
   img {
     margin-right:10px;

@@ -43,8 +43,6 @@ a {
   /* font-weight: ; */
 }
 
-
-
 .navbar__title {
   margin-right: auto;
   font-size: 175%;
@@ -65,8 +63,8 @@ a {
   background-image: url(../image/blackwhiteperson.jpg);  
   color: black;
   background-size: cover; 
-  font-weight: bold;
-  height: 100vh;
+  /* font-weight: bold; */
+  height: 100%;
   width: 100%;
   min-width: 100%;
   min-height: 100%;
@@ -74,7 +72,7 @@ a {
 }
 
 .home-img {
-  background-image: url(../image/okayokay.jpg); 
+  background-image: url(../image/mypic.jpg); 
   margin-top: 5%; 
   margin-left: 45%;
   width: 15%;
@@ -87,15 +85,7 @@ a {
 form-group {
   position: center;
  
-  /* top: 0;
-  right: 0;
-  bottom: 20px;
-  left: 0;
-  width: 100px;
-  height: 100px;
-  background-color: #ccc;
-  border-radius: 3px; */
-} 
+}
 
 .card-body h2 {
   text-align: center;
@@ -117,18 +107,20 @@ form-group {
 }
 
 
-.container #col {
+.container #col p {
+  column-count:2;
   color: black;
-  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .container h1 {
   margin-top: 20px;
+  
 }
 
 .container h2 {
   font-size: 1.3em;
-  text-align: center;
+  /* text-align: center; */
   padding-top: 15px;
   color: black;
   
@@ -142,35 +134,41 @@ form-group {
 
 
 #col {
-  column-count: 2;
-  border-radius: .9em;
   width: 75%;
   max-width: 900px;
-  margin: auto;
+  margin-left: 5em;
+  margin-right: 5em;
+  /* justify-content: space-between; */
   font: .8em/1 Arial, Helvetica, sans-serif;
 }
 
 #col p {
-  font-size-adjust: 20px;
+  font-size-adjust: 10px;
   color: black;
   padding: 10px;
   margin-top: .5em;
-  
+    
 }
  
-
-
-.col-fellow {
+ .col-fellow {
   margin-top: 1em;
-  column-count: 2;
   margin-bottom: 5em;
-  margin-left: 25px;
+  margin-left: 5em; 
+  display: flex;
+  justify-content: space-between;
 
+}  
+
+.col-fellow p {
+  margin-bottom: 0;
 }
 
-.container .repeat  {
+.vol {
+  display: flex;
+}
+/* .container .repeat  {
   background-color: white;
-} 
+}  */
 
 h2 {
   color: #404040;
@@ -233,23 +231,20 @@ button {
 .container {
   margin-top: 0;
   max-width: 100%;
-  max-height: 80%;
-  margin-bottom: 40px;
+  max-height: 75%;
+  margin-bottom: 20%;
   background: white;
   /* overflow: hidden; */
 }
 
 .container h1 {
-  margin-top:-1em;
-  margin-bottom: -.5em;
-  /* color: lightgrey; */
+
+  margin-top: -2em;
+  margin-bottom: -3em;
+
 }  
 
-/* .container {
-  margin-top: 20px;
-  border: 10px black;
-  
-} */
+
 .card{
   /* background: blue; */
   display: inline-block;
