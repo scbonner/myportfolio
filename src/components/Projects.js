@@ -28,42 +28,43 @@ const Projects = () => {
           <h3>Project List</h3>
             <div className="stats">
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text darken-1">coders maimed</p> */}
+                <h2 className="counter white-text">Project 1</h2>
+                
               </div>
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text darken-1">fresh pots of coffee</p> */}
+                <h2 className="counter white-text">Project 2</h2>
+                
               </div>
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text lighten-1">pounds gnar shredded</p> */}
+                <h2 className="counter white-text">Project 3</h2>
+                
               </div>
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text darken-1">honeybadgers harmed</p> */}
+                <h2 className="counter white-text">Project 4</h2>
+                
               </div>
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text lighten-1">pounds gnar shredded</p> */}
+                <h2 className="counter white-text">Project 5</h2>
+                </div>
+              <div className="stat blue darken-2">
+                <h2 className="counter white-text">Project 6</h2>
+                
               </div>
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text darken-1">honeybadgers harmed</p> */}
+                <h2 className="counter white-text">Project 7</h2>
+                
               </div>
               <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text lighten-1">pounds gnar shredded</p> */}
-              </div>
-              <div className="stat blue darken-2">
-                <h2 className="counter white-text">Pending</h2>
-                {/* <p className="grey-text darken-1">honeybadgers harmed</p> */}
+                <h2 className="counter white-text">Project 8</h2>
+                
               </div>
             </div>
           </div>
         </div>
+        <br></br>
         <div className="row">
           <p>The Projects List is a work in progress...stay tuned.</p>
+
         </div>
       </div>
      </section>

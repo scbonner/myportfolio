@@ -35,7 +35,8 @@ nav .nav-wrapper {
 
   h3 {
     font-weight: bold;
-    color: blue;
+    text-align: center;
+    color: grey;
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -52,7 +53,7 @@ nav .nav-wrapper {
   
   p {
     font-size: 20px;
-    color: blue;
+    color: grey;
   }
 
 
