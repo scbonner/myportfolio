@@ -29,12 +29,25 @@ const About = () => {
       </div>   
     <div className="container">
         <h1>Fellowships</h1>
-        <div id="col" className="fellow">
-        <div>National Science Foundation - Innovation Corps (2018/Cohort)</div>
-        <div>201Youth Justice Leadership Institute - NJJN (2016/Cohort)</div>
-      </div>
-      </div>
-      </div>   
+        <div className="col-fellow">
+        <div>National Science Foundation - Innovation Corps (2018/Cohort)
+        <ul>
+            <li>Alumni Representative</li>
+            <li>Alumni Advisory Committee</li>
+          </ul>
+        <div>201Youth Justice Leadership Institute - NJJN (2016/Cohort)
+          <ul>
+            <li>Alumni Representative</li>
+            <li>Alumni Advisory Committee</li>
+          </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+     
+    
+       
      
  
  );

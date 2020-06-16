@@ -116,9 +116,11 @@ a {
   
 }
 
-/* .card .container {
+.container h1
+.fellow{
+  margin-bottom: 5em;
   position: center;
-} */
+}
 
 
 #col {
@@ -131,21 +133,20 @@ a {
 }
 
 #col p {
-  font-size-adjust: 15px;
+  font-size-adjust: 20px;
   color: black;
   padding: 10px;
   margin-top: .5em;
   
 }
+ 
 
-h1 #col {
-  margin-top: 5em;
-}
-#col 
-.fellow {
-  margin-top: 5em;
+.col-fellow {
+  margin-top: 1em;
   column-count: 2;
-  margin-bottom: 20%;
+  margin-bottom: 5em;
+  margin-left: 25px;
+
   
 }
 
