@@ -1,65 +1,63 @@
-// import React, { Component } from 'react';
-// import { NavLink } from 'react-router-dom';
-// import CSS from '../css/courses.css';
+// import React from 'react';
+// import Paper from '@material-ui/core/Paper';
+// import { makeStyles } from '@material-ui/core/styles';
+// import Grid from '@material-ui/core/Grid';
+// import Avatar from '@material-ui/core/Avatar';
+// import Typography from '@material-ui/core/Typography';
 
+// const Test = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 1,
+//     overflow: 'hidden',
+//     padding: theme.spacing(0, 3),
+//   },
+//   paper: {
+//     maxWidth: 400,
+//     margin: `${theme.spacing(1)}px auto`,
+//     padding: theme.spacing(2),
+//   },
+// }));
 
+// const message = `Truncation should be conditionally applicable on this long line of text
+//  as this is a much longer line than what the container can support. `;
 
-// const NavLinks = [
-//   { url: '/', name: 'Home' },
-//   { url: '/about', name: 'About' },
-//   { url: '/projects', name: 'Projects' },
-//   { url: '/contact', name: 'Contact' },
-// ];
+// export default function AutoGridNoWrap() {
+//   const classes = useStyles();
 
-
-// class Test extends Component {
-//   constructor(){
-//     super();
-//     this.state = {
-//       style: 'menu',
-//       menuStatus: 'open'
-
-//     };
-//     this.handleClick = this.handleClick.bind(this);
-
-//   };
-
-//   handleClick() {
-//     switch(this.state.menuStatus)
-//     {
-//       case "open":
-//         this.setState({
-//           menuStatus: "close",
-//           style: "menu active"
-//         });
-//         break;
-//       case "close":
-//         this.setState({
-//           menuStatus:"open",
-//           style: "menu"
-//         });
-//         break;
-
-//     }
-//   }
-
-//   render() {
-//     return(
-//       <div>
-//         <button onClick={this.handleClick}>Sadric's Portfolio</button>
-//         <div className={this.state.style}>
-//         <ul>
-//           {NavLinks.map(({ url, name }) => ( 
-//           <li>
-//             <a href={url}>{name}></a>
-//           </li>
-//           ))}
-//         </ul>
-//       </div>
+//   return (
+//     <div className={classes.root}>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={2}>
+//           <Grid item>
+//             <Avatar>W</Avatar>
+//           </Grid>
+//           <Grid item xs zeroMinWidth>
+//             <Typography noWrap>{message}</Typography>
+//           </Grid>
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={2}>
+//           <Grid item>
+//             <Avatar>W</Avatar>
+//           </Grid>
+//           <Grid item xs>
+//             <Typography noWrap>{message}</Typography>
+//           </Grid>
+//         </Grid>
+//       </Paper>
+//       <Paper className={classes.paper}>
+//         <Grid container wrap="nowrap" spacing={2}>
+//           <Grid item>
+//             <Avatar>W</Avatar>
+//           </Grid>
+//           <Grid item xs>
+//             <Typography>{message}</Typography>
+//           </Grid>
+//         </Grid>
+//       </Paper>
 //     </div>
-//     );
-//   }
-
+//   );
 // }
 
-//  export default Test
+// export default Test

@@ -41,8 +41,9 @@ a {
   color: black;
   font-family: Helvetica;
   /* font-weight: ; */
-  
 }
+
+
 
 .navbar__title {
   margin-right: auto;
@@ -61,7 +62,7 @@ a {
 
 .container .jumbotron  {
   margin: 0px;
-  background-image: url(../image/blackwhiteperson.jpg); 
+  background-image: url(../image/blackwhiteperson.jpg);  
   color: black;
   background-size: cover; 
   font-weight: bold;
@@ -71,6 +72,32 @@ a {
   min-height: 100%;
 
 }
+
+.home-img {
+  background-image: url(../image/okayokay.jpg); 
+  margin-top: 5%; 
+  margin-left: 45%;
+  width: 15%;
+  border-radius: 6px;
+  box-shadow: .5em .5em lightgrey;
+  
+}
+
+.text {
+  /* text-align: center; */
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  column-count: 2;
+  color: black;
+}
+
+.text p {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
 
 .container #col {
   color: black;
@@ -106,18 +133,25 @@ a {
 #col p {
   font-size-adjust: 15px;
   color: black;
+  padding: 10px;
+  margin-top: .5em;
+  
 }
 
+h1 #col {
+  margin-top: 5em;
+}
 #col 
 .fellow {
+  margin-top: 5em;
   column-count: 2;
   margin-bottom: 20%;
   
 }
 
 .container .repeat  {
-  background-color: grey;
-}
+  background-color: white;
+} 
 
 h2 {
   color: #404040;
@@ -181,14 +215,16 @@ button {
   margin-top: 0;
   max-width: 100%;
   max-height: 80%;
+  margin-bottom: 40px;
   background: white;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-/* header {
-  margin-bottom: 2em;
-  color: lightgrey;
-}  */
+.container h1 {
+  margin-top:-1em;
+  margin-bottom: -.5em;
+  /* color: lightgrey; */
+}  
 
 /* .container {
   margin-top: 20px;
@@ -221,9 +257,10 @@ button {
   text-align: left;
 }
 
-.p {
+.intro-port p {
   margin-left: 10px;
   color: black;
+  text-align: center;
 
 }
 
@@ -233,25 +270,27 @@ button {
 
 /* MAIN NAV -------- */
 
-.main-nav {
- 
-}
+
 
 .main-nav a {
   margin-top: 20px;
   /* border-top: 20px; */
   padding-top: 20px;
   font-size: 1em;
-  color: black;
+  color: white;
+  background: black;
+
   text-align: center;
   text-transform: uppercase;
-  /* display: block; */
-  /* transition: .2s; */
+  /* border-radius: 7px; */
+  border: 20px 20px 20px 20px;
+  margin-right: auto;
+  
 }
 
 .main-nav a:hover,
 .main-nav .active {
-  margin-right: auto;
+  /* margin-right: auto; */
   color: black; 
   background: white;
 }
@@ -347,10 +386,10 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: lightgrey;
-  padding-top: 25px;
+  background-color: black;
+  padding-top: 20px;
   padding-bottom: 20px;
-  color: black;
+  color: lightgrey;
   text-align: center;
 
 }
