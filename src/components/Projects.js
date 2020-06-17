@@ -13,8 +13,23 @@ const Projects = () => {
           
           <h3>Brief Description of Projects</h3>
           <ul class="list-group">
-            <li class="list-group-item">Project 1:</li>
-            <li class="list-group-item">Project 2:</li>
+            {/* <li class="list-group-item">Project 1:><a href="project 1" class="nav-item nav-link"><h2 className="counter white-text">Project 1</h2></a></li> */}
+
+            <a href="project 1" className="nav-item nav-link">Project 1<li class="list-group-item">Project 1:><h2 className="counter white-text">Project 1</h2></li></a>
+
+            <h2 className="counter white-text">Project 1</h2>
+
+            {/* <a href="project 1" className="counter white-text"></a> */}
+
+            {/* <li class="list-group-item">Project 1:><h2>Project 1</h2></li></a>           
+            
+            <a href="project 1" className="counter white-text"><li class="list-group-item">Project 1:></li></a>
+             */}
+                
+        
+
+
+
             <li class="list-group-item">Project 3:</li>
             <li class="list-group-item">Project 4:</li>
             <li class="list-group-item">Project 5:</li>
@@ -71,9 +86,35 @@ const Projects = () => {
         
     
    
-  )
-};
 
+
+
+
+
+/* <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container-fluid">
+        <a href="strance" class="navbar-brand mr-3">STRANCE</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="home" class="nav-item nav-link active">Home</a>
+                <a href="who we are" class="nav-item nav-link">Who We Are</a>
+                <a href="instructors" class="nav-item nav-link">Instructors</a>
+                <a href="special events" class="nav-item nav-link">Special Events</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a href="register" class="nav-item nav-link">Register</a>
+                <a href="login" class="nav-item nav-link">Login</a>
+            </div>
+        </div>
+    </div>    
+</nav>  */
+
+
+)
+};
 
 
 export default Projects;

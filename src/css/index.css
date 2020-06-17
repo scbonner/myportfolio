@@ -90,7 +90,7 @@ form-group {
 }
 
 .text {
-  /* text-align: center; */
+  
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
@@ -153,7 +153,7 @@ form-group {
   color: black;
   font-style: italic;
   margin-top: em;
-  margin-bo8ttom: 5em;
+  margin-bottom: 5em;
   font-size: 14px;
   justify-content: space-between;
     
@@ -177,9 +177,6 @@ form-group {
 .vol {
   display: flex;
 }
-/* .container .repeat  {
-  background-color: white;
-}  */
 
 h2 {
   color: #404040;
@@ -293,32 +290,50 @@ button {
 /* MAIN NAV -------- */
 
 
-
 .main-nav a {
-  margin-top: 20px;
-  /* border-top: 20px; */
-  padding-top: 20px;
+  margin-top: -1em;
+  padding: 5px;
   font-size: 1em;
   color: white;
-  background: black;
-
+  background: white;
   text-align: center;
   text-transform: uppercase;
   /* border-radius: 7px; */
-  border: 20px 20px 20px 20px;
+  /* border: 10px 10px 10px 10px;
   margin-right: auto;
   
+
+
+.letters .main-nav {
+  margin-top: -1em;
+  justify-content: space-between;
 }
+
 
 .main-nav a:hover,
 .main-nav .active {
   /* margin-right: auto; */
   color: black; 
-  background: white;
+  margin-bottom: 2em;
+  /* background: white; */
 }
 
-.main-nav li {
+.main-nav {
+  margin-top: -2em;
+  margin-bottom: 2em;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.25em;
+  font-style: italic;
+  color: black;
+  background: white;
+  text-align: center;
+  text-transform: uppercase;
+  /* border-radius: 7px; */
+  /* border: 10px 10px 10px 10px; */
+  margin-right: auto;
   margin-block-end: right;
+  justify-content: space-between;
 }
 
 .Search {
@@ -360,19 +375,17 @@ button {
   color: white;
   font-weight: bold;
   font-size: 10px;
-  margin-left: 35px;
-  border-radius: .25em;
-  padding: 5px;
+  margin-left: 10%;
+  border-radius: 50%;
+  padding: 20px;
   margin-bottom: .5em;
-  margin-top: .1em;
+  margin-top: -.5em;
   text-emphasis-style: italic; 
-  font-size: 3em;
+  font-size: 4em;
 }
 .logo i {
   
   height: 10vh; 
-  /* margin-top: 20px;
-  text-emphasis-style: italic; */
 
 }
 .icn-error {
