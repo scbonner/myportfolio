@@ -90,8 +90,7 @@ form-group {
 }
 
 .text {
-  
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
   column-count: 2;
@@ -102,6 +101,14 @@ form-group {
   color: black;
   font-style: italic;
   font-weight: bold;
+  
+}
+
+.container #col
+ p {
+  margin: 0;
+  text-align: center;
+  
 }
 
 /* About page section ==================================================================== */
@@ -109,12 +116,12 @@ form-group {
 /* About white container  */
 
 .container {
-  margin-top: 2%;
+  /* margin-top: 2%; */
   max-width: 90%;
   max-height: 50%;
   margin-bottom: 10%;
   background: white;
-  font-size: 14px;
+  font-size: 22px;
   /* overflow: hidden; */
 }
 
@@ -123,17 +130,22 @@ form-group {
   margin-bottom: .2em;
   font-size: 40px;
   color: white;
+  text-decoration: underline;
 }
 
 .container h2 {
   margin-top: 1em;
   font-size: 40px;
   color: black;
+  text-decoration: underline;
   text-align: center;
+  
 }
 
 .container #col {
-  padding-top: 1px;
+  padding-top: 5em;
+  padding-bottom: 20px;
+  margin-left: 45px;
   color: black;
   text-align: center;
 }
@@ -146,13 +158,14 @@ form-group {
 
 #col p {
   /* column-count:2; */
-  width: 75%;
+  width: 80%;
   max-width: 900px;
   margin-left: 8em;
   margin-right: 0;
   color: black;
   font-style: italic;
-  margin-top: em;
+  font-weight: bold;
+  margin-top: 2em;
   margin-bottom: 5em;
   font-size: 14px;
   justify-content: space-between;

@@ -37,8 +37,8 @@ nav .nav-wrapper {
     font-weight: bold;
     text-align: center;
     color: grey;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
   }
 
@@ -55,12 +55,19 @@ nav .nav-wrapper {
     font-size: 20px;
     color: grey;
   }
+  .list-group-item a {
+    border: px;
 
+  }
 
-  .list-group-item {
+  .list-group-item, 
+  .nav-item  {
     text-align: left;
-    margin: 0 50px;
+    padding-top: 25px;
     border-color: black;
+    
+    /* padding-bottom: 10px;  */
+  
   }
   
   .stat p {
@@ -95,58 +102,7 @@ nav .nav-wrapper {
     width: 66px;
   }
   
-  .wine-row {
-    display: flex;
-    flex-direction: row;
-    height: 70px;
-    padding: 10px 0;
-  }
-  
-  .wine-text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .blogpost {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-  
-  .blogpost .image-wrapper {
-    flex: 4;
-    margin: 0px auto;
-  }
-  
-  .blogpost .content {
-    flex: 4;
-  }
-  
-  .blogpost .footer {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .blogpost .footer .row {
-    flex: 2;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .blogpost .footer .material-icons {
-    max-width: 24px;
-    margin: 0 8px;
-  }
-  .blogpost .footer-content {
-    display: flex;
-  }
-  
-  .blogpost .read-more {
-    display: flex;
-    justify-content: center;
-  }
-  
+   
   
   #hero {
     background-size: cover;
