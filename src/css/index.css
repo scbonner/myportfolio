@@ -75,6 +75,7 @@ a {
   margin-top: 5%; 
   margin-left: 45%;
   width: 15%;
+  opacity: .5;
   border-radius: 6px;
   box-shadow: .5em .5em lightgrey;
 }
