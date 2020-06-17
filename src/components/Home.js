@@ -15,25 +15,13 @@ const Home = () => {
         </div>
       </div>
       
+    )
+ }
      
-   
-   
-      //  <div className = "profile">
-      //    <img className="profile-img" src ={Photo} alt ="profile photo"></img>
-      //    <div className ="half-p pink-bg">
-      //      <h2 className = "p-c">I'm a Front-end Developer</h2>
-      //      <p>I'm always learning</p>
-      //    </div>
-      //  </div>
-
-      // <div className="intro-port center" >
-       // <p>Hi! I'm Sadric, and welcome to my portfolio.</p>
-     //</div>
+      
+  
   
     
-        
-    )
-  }
 
 export default Home
 
